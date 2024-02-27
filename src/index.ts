@@ -1,12 +1,9 @@
 // import {User} from './User';
 // import { Company } from './Company';
+import { CustomMap } from "./CustomMap";
+
+new CustomMap('map');
 
 
-new google.maps.Map(document.getElementById('map') as HTMLElement,{
-    zoom: 3,
-    center: {
-        lat: 0,
-        lng: 0
-    }
-});
+
 
